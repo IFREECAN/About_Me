@@ -1,7 +1,16 @@
 
-body{
-  background-color: orange
+#container{
+  width: 1200px;
+  margin: auto;
+  background-color: orange;
+  padding-left: 20px;
+  padding-right: 20px;
 }
+
+div.music {
+  text-align: center;
+}
+
 p {
   background-color: black;
   color: white;
@@ -9,8 +18,8 @@ p {
 }
 
 #list {
-  background-color: gray;
-  color: orange;
+  background-color: black;
+  color: white;
 }
 
 h1 {
@@ -22,4 +31,8 @@ h1 {
 h2 {
   font-family: fantasy;
   font-weight: normal;
+}
+
+footer {
+  text-align: center;
 }
